@@ -1,0 +1,55 @@
+// header
+.m-header {
+  position: relative;
+  background: #FFF;
+  height: 70px;
+  border-bottom: 2px solid #eee;
+}
+
+.m-header-inner {
+  position: relative;
+  width: 1010px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.m-header-logo {
+  width: 110px;
+  margin: 0 auto;
+}
+
+// search
+.m-header-search {
+  position: absolute;
+  left: 0;
+  top: 20px;
+}
+
+// navi
+
+.m-header-navi.is-non-login {
+    top: 24px;
+}
+
+.m-header-navi {
+  display: inline-block;
+  vertical-align: middle;
+  position: absolute;
+  right: 0;
+  top: 20px;
+  letter-spacing: -.4em;
+  white-space: nowrap;
+}
+
+.m-header-navi-menu {
+  display: inline-block;
+  vertical-align: middle;
+  height: 30px;
+  margin-left: 25px;
+  font-size: 12px;
+  letter-spacing: normal;
+    a {
+      display: inline-block;
+      line-height: 30px;
+    }
+}
